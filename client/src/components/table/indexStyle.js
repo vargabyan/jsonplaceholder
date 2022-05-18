@@ -18,11 +18,13 @@ export const TableGridStyle = styled.div`
 
     & p {
       margin: 0;
+      cursor: pointer;
     }
 
     & div {
       margin-top: 2px;
       margin-left: 150%;
+      cursor: pointer;
     }
   }
 
@@ -31,11 +33,13 @@ export const TableGridStyle = styled.div`
 
     & p {
       margin: 0;
+      cursor: pointer;
     }
 
     & div {
       margin-top: 2px;
       margin-left: 60%;
+      cursor: pointer;
     }
   }
 
@@ -44,11 +48,13 @@ export const TableGridStyle = styled.div`
 
     & p {
       margin: 0;
+      cursor: pointer;
     }
 
     & div {
       margin-top: 2px;
       margin-left: 60%;
+      cursor: pointer;
     }
   }
 
@@ -85,4 +91,8 @@ export const PaginationStyle = styled.div`
   padding-bottom: 12px;
   font-size: 24px;
   font-weight: 500;
+
+  button {
+    cursor: pointer;
+  }
 `;
